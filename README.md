@@ -2,8 +2,8 @@
   <img alt="Products Page" src="./github/products.png" width="18.5%">
   <img alt="Products Page with Edit" src="./github/products_edit.png" width="18.5%">  
   <img alt="Products Page with Delete" src="./github/products_delete.png" width="18.5%">
-  <img alt="Product Edit" src="./github/produt_edit.png" width="18.5%">
-  <img alt="Product Delete" src="./github/produt_delete.png" width="18.5%">
+  <img alt="Product Edit" src="./github/product_edit.png" width="18.5%">
+  <img alt="Product Delete" src="./github/product_delete.png" width="18.5%">
 </h1>
 
 <h3 align="center">
