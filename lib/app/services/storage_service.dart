@@ -16,7 +16,7 @@ class FirebaseStorageService implements StorageService {
   @override
   Future<File> getCachedImageFile(final String imageId) async {
     final Directory temp = await getTemporaryDirectory();
-    final String fullPathName = '${temp.path}/images_temp2/$imageId';
+    final String fullPathName = '${temp.path}/images_temp4/$imageId';
     final File imageFile = File(fullPathName);
     if (await imageFile.exists() == false) {
       try {

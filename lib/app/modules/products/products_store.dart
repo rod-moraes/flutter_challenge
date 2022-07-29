@@ -33,7 +33,7 @@ abstract class ProductsStoreBase with Store {
   Future<void> getAllProducts() async {
     stateGet = ProductsGetStateLoading();
     try {
-      //await Future.delayed(const Duration(seconds: 2));
+      await Future.delayed(const Duration(seconds: 0));
       List<ProductModel> products = await productRepository.getAllProducts();
       this.products.removeWhere((element) => true);
       this.products.addAll(products);
